@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehberiniz</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./logo.png" alt="logo" class="logo-img" />
+        <h2>REHBER</h2>
+      </div>
+
+      <div class="menu-div">
+        <a href="#" class="menu memberss">Yeni Veri Ekle</a>
+        <a href="" class="menu">Rehberiniz</a>
+        <a href="" class="menu">Giriş Yap</a>
+        <a href="" class="menu">Kayıt Ol</a>
+      </div>
+    </nav>
+
+    <section class="rehber">
+      <table class="table">
+        <tr class="first">
+          <th>İsim/Soyisim</th>
+          <th>Telefon Numarası</th>
+          <th class="email">Email</th>
+          <th class="button">İşlemler</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td class="email">Germany</td>
+          <td>
+            <i class="fa-regular fa-pen-to-square"></i>
+            <i class="fa-solid fa-trash"></i>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section class="newmemberadd">
+      <div class="memberadd">
+        <i class="fa-solid fa-x"></i>
+        <div><span>Ad Soyad: </span> <input class="isim" type="text" /></div>
+        <div><span>Email: </span><input class="mail" type="email" /></div>
+        <div>
+          <span>Telefon Numarası: </span><input class="telno" type="number" />
+        </div>
+        <button class="memberbutton">Kaydet</button>
+      </div>
+    </section>
+    <div class="buttons">
+      <button class="leftright">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <p class="number">1</p>
+      <button class="leftright">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

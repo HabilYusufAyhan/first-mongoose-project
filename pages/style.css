@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body {
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  background: url('./bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+}
+nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+nav h2 {
+  margin: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.logo-img {
+  width: 80px;
+}
+.menu-div {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.menu:hover {
+  color: #00c41c;
+}
+.rehber {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px;
+}
+.rehber table {
+  width: 60%;
+  text-align: center;
+  position: relative;
+}
+td:first-child {
+  text-align: left;
+}
+th:first-child {
+  text-align: left;
+}
+td {
+  padding-top: 15px;
+}
+tr:nth-child(2) td {
+  padding-top: 25px;
+}
+th {
+  color: #19baff;
+
+  font-size: 20px;
+}
+
+td {
+  color: white;
+}
+td i {
+  color: rgb(164, 164, 6);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.fa-trash {
+  color: rgb(130, 3, 3);
+  margin-left: 10px;
+}
+.buttons {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button {
+  border: none;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: transparent;
+  color: #19baff;
+  cursor: pointer;
+}
+.buttons p {
+  font-size: 30px;
+  color: white;
+  width: 40px;
+  text-align: center;
+}
+.fa-pen-to-square:hover {
+  color: rgb(221, 221, 7);
+}
+.fa-trash:hover {
+  color: rgb(216, 4, 4);
+}
+.fa-chevron-left,
+.fa-chevron-right {
+  transition: 0.3s;
+}
+.fa-chevron-left:hover {
+  transform: translateX(-3px);
+}
+.fa-chevron-right:hover {
+  transform: translateX(3px);
+}
+
+/*New Member add*/
+.newmemberadd {
+  transition: 0.3s;
+  opacity: 0;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.memberadd {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+}
+.memberadd div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fa-x {
+  color: rgb(130, 1, 1);
+  font-size: 25px;
+  right: 20px;
+  top: 20px;
+  position: absolute;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.fa-x:hover {
+  color: rgb(224, 0, 0);
+}
+.memberbutton {
+  margin-top: 30px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: #1f93c5;
+  color: white;
+  cursor: pointer;
+}
+.telno::-webkit-outer-spin-button,
+.telno::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.memberadd span {
+  color: #286077;
+}
+.memberbutton:hover {
+  background-color: #19baff;
+}
+input {
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px;
+}
